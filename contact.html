@@ -1,0 +1,179 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slush Stoodios | Contact Us</title>
+        <link rel="icon" type="image/x-icon" href="images/ss_sub_logo.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="contact-styles.css">
+
+    </head>
+    <body>
+
+        <div class="nav_containter">
+          <div class="nav_contents">
+            <nav class="navbar navbar-expand-lg navbar-custom py-3">
+              <h6 class="navbar-brand" href="#">
+                  <img src="images/ss_sub_logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                  &nbsp&nbsp Slush Stoodios
+              </h6>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <img src="images/dropdownmenu.png" class="dropdownicon" alt="Dropdown Icon" width="auto" height="25">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="services.html">Services</a>
+                  <a class="nav-item nav-link" href="work.html">Work</a>
+                  <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+    <h1 class="contact-title">work with us !!</h1>
+
+    <div class="form-container">
+      <form id="slush-form" action="https://formsubmit.co/7b84c9bf966cbbadcb6af897679aee90" method="POST">
+            <div class="form-row">
+              <div class="col">
+                <label for="FullName">full name</label><span>&nbsp *</span>
+                <input type="text" class="form-control"  id="FullName" name="full-name" required>
+              </div>
+              <div class="col">
+                <label for="EmailAddress">email address</label><span>&nbsp *</span>
+                <input type="text" class="form-control" id="EmailAddress" name="email-address" required>
+              </div>
+            </div>
+      
+          <div class="form-group">
+            <label for="BusinessName">business name</label><span>&nbsp *</span>
+            <input type="text" class="form-control" id="BusinessName" name="business-name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="SocialMediaPage">social media page</label><span>&nbsp *</span>
+            <input type="text" class="form-control" id="SocialMediaPage" name="social-media-page" required>
+            <small> Please Indicate as N/A if you don't have a page/website yet</small>
+          </div>
+
+          <div class="form-group">
+            <label for="AbtBusiness">about the business & target audience/market</label><span>&nbsp *</span>
+            <div class="placeholder-small">
+              <textarea required class="form-control" name="target-audience" id="AbtBusiness" rows="5" placeholder="Tell us more about your business, why, how it started, and why you're passionate about it. Kindly specify your age gender, social status, etc. Literally anything that would help me get to know you and your business."></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="BrandGoal">what is your goal for your brand?</label><span>&nbsp *</span>
+            <div class="placeholder-small">
+              <textarea required class="form-control" name="brand-goal" id="BrandGoal" rows="5" placeholder="What are your brand goals? How do you describe your brand visually? Share your Pinterest board link?"></textarea>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col">
+              <label for="ChooseService">type of service?</label><span>&nbsp *</span>
+              <select required id="ChooseService" class="form-control" name="service" >
+                <option selected value="">...</option>
+                <option>SLUSH N' START</option>
+                <option>SLUSH N' GO</option>
+                <option>SLUSHIN' CONTENT</option>
+                <option>SLUSHIN' & Events</option>
+                <option>ALA CARTE</option>
+              </select>
+            </div>
+            <div class="col">
+              <label for="Budget">budget?</label><span>&nbsp *</span>
+              <input type="text" class="form-control" id="Budget" name="budget" placeholder="In US Dollars ($)" 
+              oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"required>
+            </div>
+          </div>
+          <!-- freeform edit -->
+          <input type="hidden" name="_subject" value="Slush Stoodios Inquiry">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://hanslaguna.github.io/websitetest1/thanks">
+          <!--  -->
+          <div class="button-container">
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+          </div>
+      </form>
+    </div>
+
+
+      <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Please fill out all fields in the form</p>
+    </div>
+
+  </div>
+
+
+        <div class="footer-basic">
+          <footer>
+              <div class="social">
+                <a href="https://www.instagram.com/slushstoodios/"><i class="icon"><img src="images/instagram.png" alt="instagram" width="30" height="auto"></i></a>
+                <a href="https://web.facebook.com/slushstoodios"><i class="icon"><img src="images/facebook.png" alt="facebook" width="30" height="auto"></i></a>
+                <a href="https://www.linkedin.com/company/slush-stoodios/"><i class="icon"><img src="images/linkedin.png" alt="linkedin" width="30" height="auto"></i></a>
+              </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="index.html">Home</a></li>
+                    <li class="list-inline-item"><a href="services.html">Services</a></li>
+                    <li class="list-inline-item"><a href="work.html">Work</a></li>
+                    <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+                </ul>
+              <p class="copyright">Slush Stoodios © 2022</p>
+          </footer>
+      </div>
+
+<script>
+    // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("submit");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+
+  btn.onclick = function() {
+    if( document.getElementById('FullName').value != '' &&
+        document.getElementById('EmailAddress').value != '' &&
+        document.getElementById('BusinessName').value != '' &&
+        document.getElementById('SocialMediaPage').value != '' &&
+        document.getElementById('AbtBusiness').value != '' &&
+        document.getElementById('BrandGoal').value != '' &&
+        document.getElementById('ChooseService').value != '' &&
+        document.getElementById('Budget').value != '') {
+
+    } else {
+      modal.style.display = "block";
+    }
+}
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    
+</html>

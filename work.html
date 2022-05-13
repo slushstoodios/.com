@@ -1,0 +1,182 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slush Stoodios | Work</title>
+        <link rel="icon" type="image/x-icon" href="images/ss_sub_logo.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="work-styles.css">
+
+    </head>
+    <body>
+
+        <div class="nav_containter">
+          <div class="nav_contents">
+            <nav class="navbar navbar-expand-lg navbar-custom py-3">
+              <h6 class="navbar-brand" href="#">
+                  <img src="images/ss_sub_logo.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                  &nbsp&nbsp Slush Stoodios
+              </h6>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <img src="images/dropdownmenu.png" class="dropdownicon" alt="Dropdown Icon" width="auto" height="25">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="services.html">Services</a>
+                  <a class="nav-item nav-link" href="work.html">Work</a>
+                  <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <div class="jumbo-container">
+          <h1 class="display-5">Our Works</h1>
+      </div>
+
+<div class="work-container">
+  <img src="images/work1.jpeg" 
+  alt="morena" id="modal1-btn" style="cursor: pointer" data-modal="modal1" class="modal-open" onclick="modal1()">
+  
+  <img src="images/work2.jpeg" 
+  alt="zoom beauty" id="modal2-btn" style="cursor: pointer" data-modal="modal2" class="modal-open" onclick="modal2()">
+  
+  <img src="images/work3.jpeg"  
+  alt="slushstoodios" id="modal3-btn" style="cursor: pointer" data-modal="modal3" class="modal-open" onclick="modal3()">
+  
+</div>
+
+    
+    <!-- The Modal -->
+      <div id="modal1" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>
+                
+          <div class="section-container">
+            <div class="columns image" style="background-image:url('images/work1.jpeg')">
+
+             </div>
+            <div class="columns content">
+               <div class="content-container">
+                  <h3>Morena</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus repellat tempore in exercitationem, ex error? Molestias, corrupti! Quidem pariatur sit reprehenderit amet blanditiis animi in inventore eos. At, est?
+                  </p>
+               </div>
+            </div>
+         </div>
+        </div>
+      </div>
+
+       <!-- The Modal -->
+       <div id="modal2" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>
+                
+          <div class="section-container">
+            <div class="columns image" style="background-image:url('images/work2.jpeg')">
+
+             </div>
+            <div class="columns content">
+               <div class="content-container">
+                  <h3>Zoom Beauty</h3>
+                  <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse numquam debitis magnam quis cumque iusto, ad ea eos explicabo rerum labore id inventore, aliquid quibusdam corrupti nostrum quasi ratione sint.
+                  </p>
+               </div>
+            </div>
+         </div>
+        </div>
+      </div>
+
+        <!-- The Modal -->
+        <div id="modal3" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close"></span>
+                
+          <div class="section-container">
+            <div class="columns image" style="background-image:url('images/work3.jpeg')">
+
+              </div>
+            <div class="columns content">
+                <div class="content-container">
+                  <h3>Slush Stoodios</h3>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, quia tempore facilis odit deserunt voluptas blanditiis iusto totam facere minus laboriosam enim aspernatur nostrum corrupti in temporibus quisquam iste? Molestias?
+                  </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<script>
+  // modal 1
+  function modal1(){
+    var modal = document.getElementById("modal1");
+    var btn = document.getElementById("modal1-btn");
+    modal.style.display = "block";
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+
+  // modal 2
+  function modal2(){
+    var modal = document.getElementById("modal2");
+    var btn = document.getElementById("modal2-btn");
+      modal.style.display = "block";
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+    // modal 3
+    function modal3(){
+    var modal = document.getElementById("modal3");
+    var btn = document.getElementById("modal3-btn");
+      modal.style.display = "block";
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+</script>
+
+
+
+<div class="footer-basic">
+  <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/slushstoodios/"><i class="icon"><img src="images/instagram.png" alt="instagram" width="30" height="auto"></i></a>
+        <a href="https://web.facebook.com/slushstoodios"><i class="icon"><img src="images/facebook.png" alt="facebook" width="30" height="auto"></i></a>
+        <a href="https://www.linkedin.com/company/slush-stoodios/"><i class="icon"><img src="images/linkedin.png" alt="linkedin" width="30" height="auto"></i></a>
+      </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="services.html">Services</a></li>
+            <li class="list-inline-item"><a href="work.html">Work</a></li>
+            <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      <p class="copyright">Slush Stoodios © 2022</p>
+  </footer>
+</div>
+
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+    
+</html>
