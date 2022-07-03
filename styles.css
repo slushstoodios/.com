@@ -1,13 +1,4 @@
 @font-face {
-    font-family: 'cocomat_prolight';
-    src: url('fonts/cocomatpro-light-webfont.woff2') format('woff2'),
-         url('fonts/cocomatpro-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'omnesblack';
     src: url('fonts/omnes-black-webfont.woff2') format('woff2'),
          url('fonts/omnes-black-webfont.woff') format('woff');
@@ -16,18 +7,17 @@
 }
 
 @font-face {
-    font-family: 'omnes';
-    src: url('fonts/omnes.woff2') format('woff2'),
-         url('fonts/omnes.woff') format('woff');
+    font-family: 'Poppins-SemiBold';
+    src: url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+         url('fonts/Poppins-SemiBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-
 @font-face {
-    font-family: 'montserrat';
-    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-family: 'Poppins-Regular';
+    src: url('fonts/Poppins-Regular.woff2') format('woff2'),
+         url('fonts/Poppins-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -55,7 +45,7 @@
 .navbar-custom a{color: var(--brown);transition: 0.3s;}
 .navbar-brand{align-items: center; display: flex;}
 .navbar h6{font-family: omnesblack;}
-.navbar a{font-family: Montserrat; border-radius: 20px;}
+.navbar a{font-family: Poppins-Regular; border-radius: 20px;}
 
 .navbar-collapse a{
     text-align: center;
@@ -93,30 +83,14 @@
     }
   }
   
-  
-/* JUMBOTRON */
-.jumbotron{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    background: transparent;
-    font-family: Montserrat;   
-     
-}
-@media screen and (max-width:767px){
-    .jumbotron{
-        font-size:8px;
-    }
-}
 
 /* JUMBOTRON */
-.jumbo-container{
+.jumbo-text{
     padding: 80 80 80 80;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Poppins-SemiBold;
     font-size: 50px;
     transition:0.5s;
-
 
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
@@ -125,6 +99,41 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+
+
+
+@media screen and (max-width: 1200px){
+
+    .jumbo-text{
+        font-size: 35px;
+    }
+
+    #jumbo-line1::after{
+        
+        transition:0.5s;
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    .jumbo-text{
+        padding: 40 40 40 40;
+        text-align: center;
+        font-family: Poppins-SemiBold;
+        font-size: 25px;
+        transition:0.5s;
+    }
+
+
+    #jumbo-line1::after{
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+
 #carouselExampleIndicators{
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
@@ -181,23 +190,6 @@
 }
 
 
-
-@media screen and (max-width:767px){
-
-    .jumbo-container{
-        padding: 40 40 40 40;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 50px;
-        transition:0.5s;
-    }
-    .jumbo-container h1{
-        font-size: 25px;
-        transition:0.5s;
-    }
-}
-
-
 /* BODY */
 .body_container{
     width: 80%;
@@ -238,11 +230,11 @@ padding-bottom: 10%;
 
 .section-container .columns.content .content-container h3{
     font-family: omnesblack;
-    margin-bottom:20px;
+    margin-bottom:23px;
 }
 
 .section-container .columns.content .content-container p{
-    font-family: Montserrat;
+    font-family: Poppins-Regular;
     margin-bottom:20px;
     margin-bottom:15px;
     text-align:justify;
@@ -271,7 +263,7 @@ padding-bottom: 10%;
     }
 
     .section-container .columns.content .content-container h3{
-        margin-bottom:5px;
+        margin-bottom:23px;
     }
 }
 

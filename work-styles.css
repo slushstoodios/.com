@@ -1,13 +1,4 @@
 @font-face {
-    font-family: 'cocomat_prolight';
-    src: url('fonts/cocomatpro-light-webfont.woff2') format('woff2'),
-         url('fonts/cocomatpro-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'omnesblack';
     src: url('fonts/omnes-black-webfont.woff2') format('woff2'),
          url('fonts/omnes-black-webfont.woff') format('woff');
@@ -15,22 +6,23 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'omnes';
-    src: url('fonts/omnes.woff2') format('woff2'),
-         url('fonts/omnes.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 @font-face {
-    font-family: 'montserrat';
-    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Poppins-SemiBold';
+  src: url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+       url('fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('fonts/Poppins-Regular.woff2') format('woff2'),
+       url('fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
     --teal: #026c82;
     --blue: #074a74;
@@ -55,7 +47,7 @@ body{
 .navbar-custom a{color: var(--brown);transition: 0.3s;}
 .navbar-brand{align-items: center; display: flex;}
 .navbar h6{font-family: omnesblack;}
-.navbar a{font-family: Montserrat; border-radius: 20px;}
+.navbar a{font-family: Poppins-Regular; border-radius: 20px;}
 
 .navbar-collapse a{
     text-align: center;
@@ -74,8 +66,7 @@ body{
     transition: 0.5s;
 }
 .jumbo-container h1{
-    font-family: omnes, sans-serif;
-    font-style: normal;
+    font-family: Poppins-SemiBold;
 }
 
 @media screen and (max-width:767px){
@@ -87,7 +78,7 @@ body{
         
     }
     .jumbo-container h1{
-        font-family: omnes, sans-serif;
+        font-family: Poppins-SemiBold;
         font-size: 33px;
     }
 }
@@ -282,7 +273,7 @@ body{
     }
     
     .section-container .columns.content .content-container p{
-        font-family: Montserrat;
+        font-family: Poppins-Regular;
         margin-bottom:20px;
         margin-bottom:15px;
         text-align:justify;
